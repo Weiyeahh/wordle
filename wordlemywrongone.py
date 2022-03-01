@@ -39,6 +39,7 @@ def check(word):
     
 guess=""
 window = pygame.display.set_mode((600, 800))
+win=False
 window.fill(black)
 def getinput():
     turn=0
